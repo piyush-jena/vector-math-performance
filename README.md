@@ -16,7 +16,7 @@ We test some software and hardware optimizations to get speedup.
 gcc program.c -O3 -o program
 ```
 3. To compile C program with Intel MKL
-4. ```bash
+```bash
 gcc program.c -O3 -lm -o program
 ```
 

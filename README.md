@@ -17,7 +17,7 @@ gcc program.c -O3 -o program
 ```
 3. To compile C program with Intel MKL
 ```bash
-gcc program.c -O3 -lm -o program
+gcc program.c -O3 -o program -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm
 ```
 
 ## Dot Product Observations:
